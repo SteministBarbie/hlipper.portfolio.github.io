@@ -21,6 +21,7 @@ nav {
 
 }
 
+
 .nav-links {
   display: flex;
   float: right;
@@ -40,19 +41,6 @@ nav {
   padding: 1rem;
   text-align: center;
   text-decoration: none;
-
-
-}
-
-
-.logo {
-  border: 0;
-  height: 4rem;
-  margin-bottom: 1rem;
-  margin-left: 1.6rem;
-  margin-top: 1rem;
-  width: 3.4rem;
-
 }
 
 .logo a {
@@ -60,15 +48,14 @@ nav {
   margin-top: -1rem;
 }
 
+.winder-pic {
+  width: 40%;
+}
+
 /*hero*/
 
 .hero-bold {
   font-weight: bolder;
-}
-
-.hero-pic {
-  margin-top: 6rem;
-  width: 100%;
 }
 
 .hero h1 {
@@ -79,9 +66,6 @@ nav {
   font-weight: 700;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin: 2rem;
-  z-index: 2;
-
 }
 
 .mini-bio {
@@ -92,11 +76,6 @@ nav {
   font-weight: 500;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-bottom: 1rem;
-  margin-left: 3.8rem;
-  margin-right: 3.7rem;
-  margin-top: 2rem;
-
 }
 
 .see-more h4 {
@@ -111,13 +90,11 @@ nav {
   padding-top: 2rem;
   text-align: center;
   width: 100%;
-
 }
 
 a {
   color: inherit;
   text-decoration: none;
-
 }
 
 @keyframes bounce {
@@ -125,33 +102,15 @@ a {
   to {height: 10rem; padding-bottom: 2rem;}
 }
 
-
-.see-more .arrow {
-  align-self: center;
-  animation-name: bounce;
-  animation-delay: 5s;
-  animation-duration: 1s;
-  animation-iteration-count: 6;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease-in-out;
-  height: 10rem;
-  padding-bottom: 2rem;
-  text-align: center;
-  width: 100%;
-}
+/* body  */
 
 .container h2 {
   align-items: center;
   color: #272728;
-  display: flex;
   font-family: "Poppins",sans-serif;
   font-size: 5.4rem;
   font-style: normal;
   font-weight: bold;
-  line-height: 8.1rem;
-  margin-left: 3.8rem;
-  margin-right: 3rem;
-  padding-top: 4rem;
 }
 
 
@@ -165,47 +124,28 @@ h3 {
   height: 9rem;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-bottom: 2rem;
-  margin-left: 3.8rem;
-  margin-right: 3.7rem;
-  margin-top: 2rem;
-
-}
-
-.bio {
-  margin: 2rem;
-  padding-bottom: 2rem;
 }
 
 .bio h2 {
-  margin-left: 1.6rem;
-  margin-top: 4rem;
-
+  padding: 2rem;
+  width: 94vw;
+  margin: auto;
 }
 
 .bio h3 {
-  align-items: center;
   color: #272728;
-  display: flex;
   font-family: "Poppins",sans-serif;
   font-size: 2.4rem;
   font-style: normal;
   font-weight: 600;
-  height: 2rem;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-left: 1.6rem;
-  margin-top: 2rem;
-  width: 33rem;
-
 }
 
-.winder-pic {
-  align-self: center;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
-
+.bio .container {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
 }
 
 .busybus-pic {
@@ -213,15 +153,31 @@ h3 {
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
-
 }
-
 
 .project-winder {
   background-color: hsla(0, 99%, 68%, .05);
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 8rem;
+}
 
+.project-winder .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-left, .container-right {
+  width: 45vw;
+  height: 80vh;
+  padding: 1vw;
+}
+
+.container-right {
+  display: flex;
+
+}
+.column {
+  width: 45vw;
 }
 
 .project-winder h2 {
@@ -242,15 +198,9 @@ h3 {
   padding-top: 2rem;
 }
 
-
 /*buttons*/
 
-
-
-
 .button {
-  align-items: center;
-  align-self: center;
   background-color: #FE5D5D;
   border-radius: 5px;
   color: #ffffff;
@@ -263,10 +213,6 @@ h3 {
   justify-content: center;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-bottom: 4rem;
-  margin-top: 2rem;
-  margin-left: 10%;
-  margin-right: 10%;
   text-decoration: none;
   width: 80%;
 
@@ -686,8 +632,6 @@ footer {
   font-weight: 500;
   letter-spacing: 0.02em;
   line-height: 150%;
-  margin-left: 3.8rem;
-
 }
 
 .container-project h3 {
@@ -1028,10 +972,6 @@ h3 {
   justify-content: center;
   letter-spacing: 0.02rem;
   line-height: 150%;
-  margin-bottom: 2rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 2rem;
   text-decoration: none;
   width: 30rem;
 }
@@ -1128,14 +1068,6 @@ h3 {
     width: 30rem;
 
   }
-
-
-
-.winder-pic {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 30rem;
-}
 
 .busybus-pic {
   height: 60rem;
@@ -1519,7 +1451,6 @@ h3 {
     height: 9rem;
     letter-spacing: 0.02rem;
     line-height: 150%;
-
   }
 
   .see-more h4 {
@@ -1534,7 +1465,6 @@ h3 {
     padding-top: 2rem;
     text-align: center;
     width: 100%;
-
   }
 
   @keyframes bounce {
@@ -1555,24 +1485,6 @@ h3 {
     text-align: center;
     width: 100%;
   }
-
-
-h3 {
-  align-items: center;
-  color: #272728;
-  font-family: "Poppins",sans-serif;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 500;
-  height: 5rem;
-  letter-spacing: 0.02rem;
-  line-height: 150%;
-  margin-bottom: 1rem;
-  margin-left: 3.8rem;
-  margin-right: 3.7rem;
-  margin-top: 2rem;
-
-}
 
 .button {
   align-items: center;
@@ -1719,12 +1631,6 @@ h3 {
     padding-top: 4rem;
   }
 
-.winder-pic {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 30rem;
-}
-
 .busybus-pic {
   margin-left: 5%;
   margin-right: 5%;
@@ -1774,7 +1680,6 @@ h3 {
   margin-right: 0.5rem;
   margin-top: 1rem;
   width: 30rem;
-
 }
 
 .research-percent {
@@ -1874,8 +1779,8 @@ justify-content: center;
   margin-right: 5%;
   margin-top: 0;
   width: 30rem;
-
 }
+
 .modal-buttons-images {
   display: grid;
   grid-gap: 2rem;
@@ -2075,9 +1980,7 @@ justify-content: center;
   justify-content: center;
   margin-left: 3.7rem;
   margin-right: 3.8rem;
-
 }
-
 
 .summary {
   background-color: hsla(0, 99%, 68%, .05);
@@ -2109,18 +2012,10 @@ justify-content: center;
   padding-top: 4rem;
 }
 
-
-
-
-
-
-
 }
 /*for desktop */
 
 @media only screen and (min-width: 1025px) {
-
-
 
   .hero-pic {
     margin-top: 6rem;
@@ -2134,7 +2029,6 @@ justify-content: center;
     font-weight: bold;
     letter-spacing: 0.02rem;
     line-height: 150%;
-
   }
 
   .mini-bio {
@@ -2175,22 +2069,7 @@ justify-content: center;
   }
 
 
-h3 {
-  align-items: center;
-  color: #272728;
-  font-family: "Poppins",sans-serif;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 500;
-  height: 5rem;
-  letter-spacing: 0.02rem;
-  line-height: 150%;
-  margin-bottom: 1rem;
-  margin-left: 3.8rem;
-  margin-right: 3.7rem;
-  margin-top: 2rem;
 
-}
 
 .button {
   align-items: center;
@@ -2374,12 +2253,12 @@ h3 {
 
   }
 
-
+/*
 .winder-pic {
   height: auto;
   margin-left: 3.7rem;
   margin-top: 5rem;
-}
+} */
 
 .busybus-pic {
   height: auto;
@@ -2536,16 +2415,16 @@ h3 {
  /*desktop grid*/
 
  .project-winder {
-   display: grid;
+   /* display: grid;
    grid-column-gap: 10rem;
    grid-row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
    grid-template-rows: 10rem 10rem 15rem 24rem 10rem;
    padding-left: 7rem;
-   padding-top: 6rem;
+   padding-top: 6rem; */
  }
 
- .project-winder h2 {
+ /* .project-winder h2 {
    grid-column-start: 1;
    grid-column-end: 2;
    grid-row-start: 1;
@@ -2580,7 +2459,7 @@ h3 {
    grid-row-start: 3;
    grid-row-end: 5;
    width: auto;
- }
+ } */
 
 
 .project-busybus {
@@ -2630,78 +2509,15 @@ h3 {
   width: auto;
 }
 
-.bio {
-  display: grid;
-  grid-column-gap: 10rem;
-  grid-row-gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
-  padding-left: 7rem;
-
-}
-
-.bio h1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.bio-h3-1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.bio-h3-2 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.bio-h3-3 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.bio-p1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.bio-p2 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 6;
-}
-
-.bio-p3 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.bio-p4 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 5;
-  grid-row-end: 6;
-}
-
 .hero {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: auto;
-  grid-column-gap: 2rem;
-  grid-row-gap: 1rem;
-  margin-top: 6rem;
+  height: 90vh;
+  position: relative;
+  top: 70px;
+  background-image: url("../images/hero-portrait.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .hero-pic {
@@ -2713,34 +2529,11 @@ h3 {
 }
 
 .hero-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-row-gap: 2rem;
-
-}
-
-
-.hero-h1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-
-}
-
-.mini-bio {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.see-more {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 3vw;
 }
 
 .summary {
@@ -2771,14 +2564,6 @@ h3 {
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-
-}
-
-.summary h3 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
 }
 
 .summary p {
@@ -2812,7 +2597,6 @@ h3 {
   grid-column-start: 2;
   grid-row-start: 4;
   grid-row-end: 6;
-
 }
 
 .contact {
@@ -3356,8 +3140,6 @@ textarea {
   grid-row-end: 4;
   padding-left: 4rem;
   padding-top: 6rem;
-
-
 }
 
 .modal-buttons-images {
